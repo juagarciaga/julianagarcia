@@ -6,19 +6,19 @@ const certifications = [
       "label": "AZ-900",
       "icon": "/certifications/AZ900.png",
       "description": "Microsoft Azure Fundamentals",
-      "link": "https://learn.microsoft.com/en-us/credentials/certifications/mta-introduction-to-programming-using-javascript/?WT.mc_id=techcom_learn-blog-wwl"
+      "link": "https://learn.microsoft.com/pt-br/credentials/certifications/exams/az-900/"
   },
   {
       "label": "DP-900",
       "icon": "/certifications/DP900.png",
       "description": "Microsoft Azure Data Fundamentals",
-      "link": "https://learn.microsoft.com/en-us/credentials/certifications/mta-introduction-to-programming-using-javascript/?WT.mc_id=techcom_learn-blog-wwl"
+      "link": "https://learn.microsoft.com/pt-br/credentials/certifications/exams/dp-900/"
   },
   {
       "label": "AI-900",
       "icon": "/certifications/AI900.png",
       "description": "Microsoft Azure AI Fundamentals",
-      "link": "https://learn.microsoft.com/en-us/credentials/certifications/mta-introduction-to-programming-using-javascript/?WT.mc_id=techcom_learn-blog-wwl"
+      "link": "https://learn.microsoft.com/pt-br/credentials/certifications/exams/ai-900/"
   },
   {
       "label": "98-382",
@@ -30,7 +30,7 @@ const certifications = [
       "label": "98-383",
       "icon": "/certifications/mta-badge.svg",
       "description": "Introduction to Programming using HTML and CSS",
-      "link": "https://learn.microsoft.com/en-us/credentials/certifications/mta-introduction-to-programming-using-javascript/?WT.mc_id=techcom_learn-blog-wwl"
+      "link": "https://learn.microsoft.com/en-us/credentials/certifications/mta-introduction-to-programming-using-html-and-css/?WT.mc_id=techcom_learn-blog-wwl"
   }
 ]
 
