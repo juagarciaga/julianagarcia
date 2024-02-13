@@ -25,7 +25,7 @@ export const getAllData = () => ({
       label: "about me",
       icon: "me",
       description:
-        "Im from Colombia, but currently Im living in São Paulo Brazil. As a back-end developer, I have always been fascinated by the design and architecture of software systems. I enjoy creating efficient, scalable, and reliable solutions that meet the needs of the clients and the users.",
+        "Im from Colombia, but currently Im living in São Paulo Brazil. As a developer, I have always been fascinated by the design and architecture of software systems. I enjoy creating efficient, scalable, and reliable solutions that meet the needs of the clients and the users.",
     },
     certifications: [
       {
