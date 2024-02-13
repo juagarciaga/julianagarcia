@@ -12,8 +12,8 @@ import { Microsoftazure } from "@styled-icons/simple-icons/Microsoftazure";
 import { Azuredevops } from "@styled-icons/simple-icons/Azuredevops";
 import { Azurepipelines } from "@styled-icons/simple-icons/Azurepipelines";
 import { Git } from "@styled-icons/boxicons-logos/Git";
-import {Storybook} from "@styled-icons/simple-icons/Storybook";
-import {Jest} from "@styled-icons/simple-icons/Jest"
+import { Storybook } from "@styled-icons/simple-icons/Storybook";
+import { Jest } from "@styled-icons/simple-icons/Jest";
 
 const skills = [
   [
@@ -75,7 +75,6 @@ const skills = [
       description:
         "Jest allows you to simulate requests to your API endpoints, helping you identify security weaknesses. services function as expected, return correct responses, and maintain reliability.",
     },
-    
   ],
   [
     {
@@ -124,18 +123,24 @@ export default function Skills() {
     <div className="mt-5">
       <h1 className="text-4xl text-white mb-3">Skills</h1>
 
-      {skills.map((group, ind) => (
-        <div className="inline-grid grid-cols-2 lg:grid-cols-3 mb-5 gap-4 border-current">
-        {group.map((skill, index) => (
-          <div key={index}>
-            <span className="flex w-100 mb-2 text-white" style={{ height: "50px" }}>
-              {skill.icon}
-            </span>
-            <b className="text-white">{skill.label}</b>
-            <p>{skill.description}</p>
-          </div>
-        ))}
-      </div>        
+      {skills.map((group, i) => (
+        <div
+          className="inline-grid grid-cols-2 lg:grid-cols-3 mb-5 gap-4 border-current"
+          key={i}
+        >
+          {group.map((skill, index) => (
+            <div key={index}>
+              <span
+                className="flex w-100 mb-2 text-white"
+                style={{ height: "50px" }}
+              >
+                {skill.icon}
+              </span>
+              <b className="text-white">{skill.label}</b>
+              <p>{skill.description}</p>
+            </div>
+          ))}
+        </div>
       ))}
     </div>
   );
