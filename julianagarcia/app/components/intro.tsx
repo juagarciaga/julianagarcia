@@ -1,6 +1,5 @@
-import { greyBg } from "@/constants"
-import { getAllData } from "@/data"
 import Image from 'next/image'
+import { getAllData } from '../data'
 
 export default function Intro() {
     const data = getAllData()

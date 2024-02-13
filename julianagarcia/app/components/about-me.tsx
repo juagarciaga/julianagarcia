@@ -1,5 +1,5 @@
 'use client'
-import { getAllData } from "@/data"
+import { getAllData } from "../data"
 
 
 const bgStyle = {
