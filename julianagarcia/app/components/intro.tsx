@@ -31,8 +31,9 @@ export default function Intro() {
 
             <div className='flex w-full my-3'>
 
-                {socialMedia.map((media) => (
+                {socialMedia.map((media, index) => (
                     <span
+                    key={index}
                         className="flex text-center w-full justify-center relative"
                         style={{ height: '40px', color: bgWater }}
                     >
