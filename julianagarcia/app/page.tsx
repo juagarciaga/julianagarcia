@@ -37,7 +37,7 @@ export default function Home() {
       />
       <div
         className="col-span-12 lg:col-span-9  flex flex-col justify-around items-center p-10"
-        style={{ background: bgWater }}
+        style={{ background: greyBg }}
       >
         <Skills />
       </div>

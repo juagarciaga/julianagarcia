@@ -14,6 +14,7 @@ import { Azurepipelines } from "@styled-icons/simple-icons/Azurepipelines";
 import { Git } from "@styled-icons/boxicons-logos/Git";
 import { Storybook } from "@styled-icons/simple-icons/Storybook";
 import { Jest } from "@styled-icons/simple-icons/Jest";
+import { bgWater } from "../constants";
 
 const skills = [
   [
@@ -121,7 +122,7 @@ const skills = [
 export default function Skills() {
   return (
     <div className="mt-5">
-      <h1 className="text-4xl text-white mb-3">Skills</h1>
+      <h1 className="text-4xl mb-3" style={{ color: bgWater }}>Skills</h1>
 
       {skills.map((group, i) => (
         <div
@@ -131,12 +132,12 @@ export default function Skills() {
           {group.map((skill, index) => (
             <div key={index}>
               <span
-                className="flex w-100 mb-2 text-white"
-                style={{ height: "50px" }}
+                className="flex w-100 mb-2"
+                style={{ height: "50px", color: bgWater }}
               >
                 {skill.icon}
               </span>
-              <b className="text-white">{skill.label}</b>
+              <b style={{ color: bgWater }}>{skill.label}</b>
               <p>{skill.description}</p>
             </div>
           ))}
