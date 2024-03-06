@@ -3,12 +3,9 @@ import Intro from "./components/intro";
 import Skills from "./components/skills";
 import AboutMe from "./components/about-me";
 import Certifications from "./components/certifications";
-import { getAllData } from "./data";
 import { greyBg, bgWater } from "./constants";
 
 export default function Home() {
-  const data = getAllData();
-
   const bgImg = {
     backgroundImage: 'url("/bg.png")',
     backgroundRepeat: "no-repeat",
