@@ -22,7 +22,7 @@ const skills = [
       label: "Node JS",
       icon: <Nodejs />,
       description:
-        "On the server side, I leverage Node.js and Express to build RESTful APIs and handle backend logic. Express provides a lightweight, flexible framework for creating web servers and APIs.",
+        "On the server side, I leverage Node.js and Express to build RESTful APIs and handle backend logic.",
     },
     {
       label: "Javascript",
@@ -114,7 +114,7 @@ const skills = [
       label: "Git",
       icon: <Git />,
       description:
-        "Git is my version control system of choice. Branching, merging, and resolving conflicts. Collaborating with team members using Git workflows. Managing repositories on platforms like GitHub, GitLab, or Azure Repos.",
+        "Git is my version control system of choice. Branching, merging, and solving conflicts. Collaborating with team members using Git workflows. Managing repositories on platforms like GitHub, GitLab, or Azure Repos.",
     },
   ],
 ];

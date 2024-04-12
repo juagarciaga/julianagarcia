@@ -19,13 +19,13 @@ export const getAllData = () => ({
       label: "intro",
       icon: "profile",
       description:
-        "I have more than 6 years experience building care for clients all over the world. Below is a quick overview of my main technical skillsets and technologies use. Want to find out more about my experience? Check out my online resume and projects",
+        "I have more than 6 years experience building solutions for clients all over the world. Below is a quick overview of my main technical skillsets and technologies use. Want to find out more about my experience? Check out my online resume and projects",
     },
     aboutMe: {
       label: "about me",
       icon: "me",
       description:
-        "Im from Colombia, but currently Im living in São Paulo Brazil. As a developer, I have always been fascinated by the design and architecture of software systems. I enjoy creating efficient, scalable, and reliable solutions that meet the needs of the clients and the users.",
+        "Im from Colombia, but currently Im living in São Paulo Brazil and working full-time remote in Avanade. As a developer, I have always been fascinated by design and software systems architecture. I enjoy creating efficient, scalable, and reliable solutions that meet users needs.",
     },
     certifications: [
       {
