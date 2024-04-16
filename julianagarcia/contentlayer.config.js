@@ -32,6 +32,14 @@ export const Doc = defineDocumentType(() => ({
       type: "boolean",
       default: true,
     },
+    slug: {
+      type: "string",
+      required: true,
+    },
+    icon: {
+      type: "string",
+      required: true,
+    },
   },
   computedFields,
 }))

@@ -16,7 +16,7 @@ var computedFields = {
 };
 var Doc = defineDocumentType(() => ({
   name: "Doc",
-  filePathPattern: `docs/**/*.mdx`,
+  filePathPattern: `blog/**/*.mdx`,
   contentType: "mdx",
   fields: {
     title: {
@@ -29,6 +29,14 @@ var Doc = defineDocumentType(() => ({
     published: {
       type: "boolean",
       default: true
+    },
+    slug: {
+      type: "string",
+      required: true
+    },
+    icon: {
+      type: "string",
+      required: true
     }
   },
   computedFields
@@ -43,7 +51,6 @@ var contentlayer_config_default = makeSource({
       [
         rehypePrettyCode,
         {
-          theme: "github-dark",
           onVisitLine(node) {
             if (node.children.length === 0) {
               node.children = [{ type: "text", value: " " }];
@@ -73,4 +80,4 @@ export {
   Doc,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-RO43BZI2.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-HQ4VB5WZ.mjs.map
