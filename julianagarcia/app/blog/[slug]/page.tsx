@@ -1,4 +1,3 @@
-'use client'
 import { notFound } from "next/navigation"
 import { allDocs } from "contentlayer/generated"
 import { Metadata } from "next"

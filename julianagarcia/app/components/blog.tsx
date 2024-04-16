@@ -1,4 +1,3 @@
-'use client'
 import Link from "next/link"
 import { allDocs } from "contentlayer/generated"
 import { Ubuntu } from "@styled-icons/fa-brands"
@@ -27,7 +26,7 @@ export default function Blog() {
                 <p>Writing articles helps me to study and to keep a record about the daily learning in this technological journey</p>
             </div>
 
-            <div className="border-current gap-4 grid-cols-2 inline-grid mb-5 w-100 mt-5">
+            <div className="border-current gap-4 grid-cols-1 lg:grid-cols-2 inline-grid mb-5 w-100 mt-5">
                 {allDocs.map((doc, index) =>
                     <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 relative" key={index}>
                         <Link title={doc.title} key={index} href={doc.slug} className=" absolute w-full h-full" />
