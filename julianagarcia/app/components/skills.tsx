@@ -22,13 +22,13 @@ const skills = [
       label: "Node JS",
       icon: <Nodejs />,
       description:
-        "On the server side, I leverage Node.js and Express to build RESTful APIs and handle backend logic. Express provides a lightweight, flexible framework for creating web servers and APIs.",
+        "On the server side, I leverage Node.js and Express to build RESTful APIs and handle backend logic.",
     },
     {
       label: "Javascript",
       icon: <Javascript />,
       description:
-        "I’m well-versed in both JavaScript and TypeScript, using them to create dynamic and interactive web applications. Whether it’s vanilla JS or the latest ES6 features, I’ve got you covered.",
+        "Whether it’s vanilla JS or the latest ES6 features, I’ve got you covered.",
     },
     {
       label: "Typescript",
@@ -36,13 +36,12 @@ const skills = [
       description:
         "Strong typing system allows to catch errors at compile-time rather than runtime, which can save valuable time and effort",
     },
-  ],
-  [
+
     {
       label: "React JS",
       icon: <ReactLogo />,
       description:
-        "React is my go-to library for building robust user interfaces. I’ve worked extensively with React components, state management (Redux, Context), and hooks.",
+        "React is my go-to library for building robust user interfaces. React components, state management (Redux, Context), and hooks <3.",
     },
     {
       label: "Next.JS",
@@ -54,21 +53,19 @@ const skills = [
       label: "Storybook",
       icon: <Storybook />,
       description:
-        "Storybook is a frontend workshop for building UI components and pages in isolation. Thousands of teams use it for UI development, testing, and documentation. It’s open source and free.",
-    },
-  ],
-  [
-    {
-      label: "Nestjs",
-      icon: <Nestjs />,
-      description:
-        "Nest.js is my preferred choice for building scalable and maintainable back-end applications. It combines TypeScript, decorators, and dependency injection to create a robust framework.",
+        "Storybook is a frontend workshop for building UI components and pages in isolation. Empowering UI development, testing, and documentation.",
     },
     {
       label: "Express",
       icon: <Express />,
       description:
-        "I’ve implemented authentication, middleware, and database interactions using Express.",
+        "Authentication, middleware, and database interactions based on Node.js is one of my favorites too",
+    },
+    {
+      label: "Nestjs",
+      icon: <Nestjs />,
+      description:
+        "Nest.js is my preferred choice for building scalable and maintainable back-end applications. Combining TypeScript, decorators, and dependency injection to create a robust framework.",
     },
     {
       label: "Jest",
@@ -76,8 +73,7 @@ const skills = [
       description:
         "Jest allows you to simulate requests to your API endpoints, helping you identify security weaknesses. services function as expected, return correct responses, and maintain reliability.",
     },
-  ],
-  [
+
     {
       label: "Mysql",
       icon: <Mysql />,
@@ -90,8 +86,7 @@ const skills = [
       description:
         "I’ve worked with NoSQL databases, modeling data as documents and utilizing features like aggregation pipelines.",
     },
-  ],
-  [
+
     {
       label: "Microsoftazure",
       icon: <Microsoftazure />,
@@ -114,7 +109,7 @@ const skills = [
       label: "Git",
       icon: <Git />,
       description:
-        "Git is my version control system of choice. Branching, merging, and resolving conflicts. Collaborating with team members using Git workflows. Managing repositories on platforms like GitHub, GitLab, or Azure Repos.",
+        "Git is my version control system of choice. Branching, merging, and solving conflicts. Collaborating with team members using Git workflows. Managing repositories on platforms like GitHub, GitLab, or Azure Repos.",
     },
   ],
 ];

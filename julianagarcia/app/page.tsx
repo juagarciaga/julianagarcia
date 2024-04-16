@@ -4,13 +4,15 @@ import Skills from "./components/skills";
 import AboutMe from "./components/about-me";
 import Certifications from "./components/certifications";
 import { greyBg, bgWater } from "./constants";
+import Blog from "./components/blog";
 
 export default function Home() {
-  const bgImg = {
-    backgroundImage: 'url("/bg.png")',
+  const bgImg = (bg: string) => (
+    {
+    backgroundImage: `url(/${bg}.png)`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-  };
+  });
 
   const leftColumClassName = "col-span-12 lg:col-span-3 bg-slate-300 flex flex-col items-center gap-1 text-black text-center py-3 px-10"
 
@@ -24,7 +26,7 @@ export default function Home() {
       </div>
       <div
         className="col-span-12 lg:col-span-9 bg-white flex flex-col justify-around items-center p-10"
-        style={{ ...bgImg }}
+        style={bgImg("bg") }
       >
         <AboutMe />
       </div>
@@ -47,6 +49,16 @@ export default function Home() {
         style={{ background: bgWater }}
       >
         <Certifications />
+      </div>
+      <div
+        className={leftColumClassName}
+        style={{ background: greyBg }}
+      />
+      <div
+        className="col-span-12 lg:col-span-9 flex flex-col justify-around items-center p-10"
+        style={{ background: greyBg }}
+      >
+        <Blog />
       </div>
     </main>
   );
