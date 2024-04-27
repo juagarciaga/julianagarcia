@@ -1,7 +1,5 @@
 import { notFound } from "next/navigation"
-import { allDocs } from "contentlayer/generated"
 import { Metadata } from "next"
-import { Mdx } from "@/app/components/mdx-components"
 import BackButton from "@/app/components/buttons/get-back.button"
 
 interface DocPageProps {
@@ -11,7 +9,8 @@ interface DocPageProps {
 }
 
 async function getDocFromParams(slug: any) {
-  const doc = allDocs.find((doc) => doc.slugAsParams === slug)
+  // const doc = allDocs.find((doc) => doc.slugAsParams === slug)
+  const doc = {title: "some title", body: {code: "any code"}}
   if (!doc) notFound()
   return doc
 }
@@ -27,7 +26,7 @@ export default async function DocPage({ params }: DocPageProps) {
         <hr className="my-2" />
         <h1 className="text-5xl">{doc.title}</h1>
         <hr className="my-2" />
-        <Mdx code={doc.body.code}></Mdx>
+        {/* <Mdx code={doc.body.code}></Mdx> */}
       </div>
     </main>
   )

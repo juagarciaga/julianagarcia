@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { allDocs } from "contentlayer/generated"
 import { Ubuntu } from "@styled-icons/fa-brands"
 import { Memory } from "@styled-icons/material-rounded/Memory"
 import { Octanerender, Microsoftazure } from "@styled-icons/simple-icons"
@@ -27,7 +26,7 @@ export default function Blog() {
             </div>
 
             <div className="border-current gap-4 grid-cols-1 lg:grid-cols-2 inline-grid mb-5 w-100 mt-5">
-                {allDocs.map((doc, index) =>
+                {/* {allDocs.map((doc, index) =>
                     <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 relative" key={index}>
                         <Link title={doc.title} key={index} href={doc.slug} className=" absolute w-full h-full" />
                         <div style={{ width: "80px", margin: "0", color: bgWater }}>
@@ -38,7 +37,7 @@ export default function Blog() {
                             <p className="text-slate-500">{doc.description}</p>
                         </div>
                     </div>
-                )}
+                )} */}
             </div>
         </>
     )
