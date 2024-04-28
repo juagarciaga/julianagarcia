@@ -4,7 +4,7 @@ description: Advantages of Using Ubuntu on Windows - An smart and hibrid system
 slug: az-ad-and-nextjs
 icon: Microsoftazure
 dateWritten: April 11, 2024 
-tasgs: Azure
+tags: Azure
 readingTime: 5min
 ---
 
