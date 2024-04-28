@@ -32,7 +32,7 @@ export default function ArticlePage(props: any) {
     const { content, data } = post
     const { title, dateWritten, tags } = data
 
-    const formatTags = tags.split(',').map((tag: string, index: number) => (<b key={index} style={{ color: bgWater, textTransform: "uppercase" }}>  ⋅ #{tag} ⋅  </b>))
+    const formatTags = tags?.split(',').map((tag: string, index: number) => (<b key={index} style={{ color: bgWater, textTransform: "uppercase" }}>  ⋅ #{tag} ⋅  </b>))
 
     return (
         <main style={{ background: 'white', color: 'black' }}>
