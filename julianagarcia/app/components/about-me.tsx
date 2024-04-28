@@ -1,6 +1,4 @@
-'use client'
 import { getAllData } from "../data"
-
 
 const bgStyle = {
     background: "#2b6b658f",

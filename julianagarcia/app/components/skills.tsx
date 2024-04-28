@@ -1,113 +1,98 @@
-"use client";
-import { Javascript } from "@styled-icons/simple-icons/Javascript";
-import { Typescript } from "@styled-icons/simple-icons/Typescript";
-import { Nodejs } from "@styled-icons/boxicons-logos/Nodejs";
-import { ReactLogo } from "@styled-icons/boxicons-logos/ReactLogo";
-import { Nextdotjs } from "@styled-icons/simple-icons/Nextdotjs";
-import { Nestjs } from "@styled-icons/simple-icons/Nestjs";
-import { Express } from "@styled-icons/simple-icons/Express";
-import { Mongodb } from "@styled-icons/simple-icons/Mongodb";
-import { Mysql } from "@styled-icons/simple-icons/Mysql";
-import { Microsoftazure } from "@styled-icons/simple-icons/Microsoftazure";
-import { Azuredevops } from "@styled-icons/simple-icons/Azuredevops";
-import { Azurepipelines } from "@styled-icons/simple-icons/Azurepipelines";
-import { Git } from "@styled-icons/boxicons-logos/Git";
-import { Storybook } from "@styled-icons/simple-icons/Storybook";
-import { Jest } from "@styled-icons/simple-icons/Jest";
 import { bgWater } from "../constants";
+import { icons } from "./icons";
 
 const skills = [
   [
     {
       label: "Node JS",
-      icon: <Nodejs />,
+      icon: icons["Nodejs"],
       description:
         "On the server side, I leverage Node.js and Express to build RESTful APIs and handle backend logic.",
     },
     {
       label: "Javascript",
-      icon: <Javascript />,
+      icon: icons["Javascript"],
       description:
         "Whether it’s vanilla JS or the latest ES6 features, I’ve got you covered.",
     },
     {
       label: "Typescript",
-      icon: <Typescript />,
+      icon: icons["Typescript"],
       description:
         "Strong typing system allows to catch errors at compile-time rather than runtime, which can save valuable time and effort",
     },
 
     {
       label: "React JS",
-      icon: <ReactLogo />,
+      icon: icons["ReactLogo"],
       description:
         "React is my go-to library for building robust user interfaces. React components, state management (Redux, Context), and hooks <3.",
     },
     {
       label: "Next.JS",
-      icon: <Nextdotjs />,
+      icon: icons["Nextdotjs"],
       description:
         "A powerful framework built on top of React, enables server-side rendering (SSR) and seamless routing. I’ve developed scalable applications using Next.js, ensuring optimal performance and SEO",
     },
     {
       label: "Storybook",
-      icon: <Storybook />,
+      icon: icons["Storybook"],
       description:
         "Storybook is a frontend workshop for building UI components and pages in isolation. Empowering UI development, testing, and documentation.",
     },
     {
       label: "Express",
-      icon: <Express />,
+      icon: icons["Express"],
       description:
         "Authentication, middleware, and database interactions based on Node.js is one of my favorites too",
     },
     {
       label: "Nestjs",
-      icon: <Nestjs />,
+      icon: icons["Nestjs"],
       description:
         "Nest.js is my preferred choice for building scalable and maintainable back-end applications. Combining TypeScript, decorators, and dependency injection to create a robust framework.",
     },
     {
       label: "Jest",
-      icon: <Jest />,
+      icon: icons["Jest"],
       description:
         "Jest allows you to simulate requests to your API endpoints, helping you identify security weaknesses. services function as expected, return correct responses, and maintain reliability.",
     },
 
     {
       label: "Mysql",
-      icon: <Mysql />,
+      icon: icons["Mysql"],
       description:
         "I’ve designed schemas, written complex queries, and optimized database performance.",
     },
     {
       label: "Mongo DB / Cosmos DB",
-      icon: <Mongodb />,
+      icon: icons["Mongodb"],
       description:
         "I’ve worked with NoSQL databases, modeling data as documents and utilizing features like aggregation pipelines.",
     },
 
     {
       label: "Microsoftazure",
-      icon: <Microsoftazure />,
+      icon: icons["Microsoftazure"],
       description:
         "I’m proficient in setting up CI/CD pipelines using Azure DevOps. From code commits to deployment, I ensure a smooth development workflow.",
     },
     {
       label: "Pipelines",
-      icon: <Azurepipelines />,
+      icon: icons["Azurepipelines"],
       description:
         "I’ve set up end-to-end CI/CD pipelines using Azure Pipelines. Configure build and release pipelines for continuous integration and deployment. Automate testing, packaging, and deployment stages. Monitor pipeline performance and troubleshoot issues.",
     },
     {
       label: "Azuredevops",
-      icon: <Azuredevops />,
+      icon: icons["Azuredevops"],
       description:
         "Microsoft Azure provides a robust cloud platform. I’ve deployed applications, managed resources, and utilized Azure services like Azure Functions, Azure Storage, and Azure App Service.",
     },
     {
       label: "Git",
-      icon: <Git />,
+      icon: icons["Git"],
       description:
         "Git is my version control system of choice. Branching, merging, and solving conflicts. Collaborating with team members using Git workflows. Managing repositories on platforms like GitHub, GitLab, or Azure Repos.",
     },
@@ -127,7 +112,7 @@ export default function Skills() {
           {group.map((skill, index) => (
             <div key={index}>
               <span
-                className="flex w-100 mb-2"
+                className="flex w-100 mb-2 iconSp"
                 style={{ height: "50px", color: bgWater }}
               >
                 {skill.icon}

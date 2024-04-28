@@ -3,9 +3,12 @@ title: Client-Side Rendering vs Server-Side Rendering
 description: Two approaches play a crucial role in modern web development.
 slug: csr-vs-ssr
 icon: Render
+dateWritten: January 10, 2024
+tags: Front-end, Back-end
+readingTime: 5min
 ---
 
-## Overview
+# Overview
 - **CSR** involves rendering web pages directly in the user's browser using JavaScript.
 - The server sends an initial HTML file, but the client-side JavaScript dynamically updates the page as needed.
 - Popular frameworks like **React**, **Angular**, and **Vue.js** heavily rely on CSR.

@@ -1,16 +1,16 @@
 import Image from 'next/image'
 import { getAllData } from '../data'
-import { Github, Linkedin } from '@styled-icons/bootstrap'
 import Link from 'next/link'
 import { bgWater } from '../constants'
+import { icons } from './icons'
 
 const socialMedia = [{
     link: 'https://github.com/juagarciaga',
-    icon: <Github />,
+    icon: icons["Github"]
 },
 {
     link: 'https://www.linkedin.com/in/julianagarciag/',
-    icon: <Linkedin />,
+    icon: icons["Linkedin"]
 }]
 export default function Intro() {
     const data = getAllData()
@@ -34,7 +34,7 @@ export default function Intro() {
                 {socialMedia.map((media, index) => (
                     <span
                     key={index}
-                        className="flex text-center w-full justify-center relative"
+                        className="flex text-center w-full justify-center relative iconSp"
                         style={{ height: '40px', color: bgWater }}
                     >
                         <Link href={media.link} className='absolute w-full h-full' target='_blank' />
