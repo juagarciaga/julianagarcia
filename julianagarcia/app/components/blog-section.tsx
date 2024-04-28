@@ -1,22 +1,16 @@
 import Link from "next/link"
-import { Ubuntu } from "@styled-icons/fa-brands"
-import { Memory } from "@styled-icons/material-rounded/Memory"
-import { Octanerender, Microsoftazure } from "@styled-icons/simple-icons"
 import { bgWater } from "../constants"
+import getPostMetadata from "@/utils/getPostMetadata"
+import { icons } from "./icons"
 
 const bgStyle = {
     background: bgWater,
     padding: "1rem"
 }
 
-const icons: any = {
-    "Ubuntu": <Ubuntu />,
-    "Memory": <Memory />,
-    "Render": <Octanerender />,
-    "Microsoftazure": <Microsoftazure />
-}
-
 export default function Blog() {
+
+    const postMetadata = getPostMetadata('content/blog')
 
     return (
         <>
@@ -26,10 +20,10 @@ export default function Blog() {
             </div>
 
             <div className="border-current gap-4 grid-cols-1 lg:grid-cols-2 inline-grid mb-5 w-100 mt-5">
-                {/* {allDocs.map((doc, index) =>
+                {postMetadata.map((doc, index) =>
                     <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 relative" key={index}>
-                        <Link title={doc.title} key={index} href={doc.slug} className=" absolute w-full h-full" />
-                        <div style={{ width: "80px", margin: "0", color: bgWater }}>
+                        <Link title={doc.title} key={index} href={doc.slug} className="absolute w-full h-full" />
+                        <div style={{ width: "80px", margin: "0", color: bgWater }} className="iconSp">
                             {icons[doc.icon]}
                         </div>
                         <div>
@@ -37,7 +31,7 @@ export default function Blog() {
                             <p className="text-slate-500">{doc.description}</p>
                         </div>
                     </div>
-                )} */}
+                )}
             </div>
         </>
     )

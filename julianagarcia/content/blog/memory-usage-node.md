@@ -3,6 +3,9 @@ title: Introduction to Memory Management in Node.js Applications
 description: Lets dive into consumption
 slug: memory-usage-node
 icon: Memory
+dateWritten: February 10, 2024
+tags: Nodejs, Back-end
+readingTime: 5min
 ---
 
 ### What is Memory Management?

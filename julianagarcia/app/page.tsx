@@ -1,10 +1,9 @@
-"use client";
 import Intro from "./components/intro";
 import Skills from "./components/skills";
 import AboutMe from "./components/about-me";
 import Certifications from "./components/certifications";
+import Blog from "./components/blog-section";
 import { greyBg, bgWater } from "./constants";
-import Blog from "./components/blog";
 
 export default function Home() {
   const bgImg = (bg: string) => (

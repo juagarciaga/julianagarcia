@@ -3,6 +3,9 @@ title: Ubuntu on Windows
 description: Advantages of Using Ubuntu on Windows - An smart and hibrid system
 slug: ubuntu-on-windows
 icon: Ubuntu
+dateWritten: March 07, 2024
+tags: System OP, Ubuntu, Windows
+readingTime: 5min
 ---
 
 **Advantages of Using Wubuntu (Ubuntu on Windows): An Intelligent Hybrid System**

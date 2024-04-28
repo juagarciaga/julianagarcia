@@ -3,6 +3,9 @@ title: Azure Active Directory and Next.js
 description: Advantages of Using Ubuntu on Windows - An smart and hibrid system
 slug: az-ad-and-nextjs
 icon: Microsoftazure
+dateWritten: April 11, 2024 
+tasgs: Azure
+readingTime: 5min
 ---
 
 Certainly! **Azure Active Directory (Azure AD)** offers several advantages for organizations. Let's explore the top benefits:
