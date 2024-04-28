@@ -14,9 +14,9 @@ function getPostContent(slug: any) {
     return matter(content)
 }
 
-export const generateStaticParams = async () => {
-    const posts = getPostMetadata('content/')
-    return posts.map((post) => ({ slug: post.slug }))
+export const generateStaticParams = () => {
+    const posts = getPostMetadata(folderPath)
+    return posts.map((post) =>  ({ slug: post.slug.split('/')[1] }))
 }
 
 export async function generateMetadata({ params, searchParams }: any) {
