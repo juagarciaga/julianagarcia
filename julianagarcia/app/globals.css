@@ -32,7 +32,19 @@ body {
   }
 }
 
-.iconSp svg {
+span svg, .iconSp svg {
   width: 100%;
   height: 100%;
 }
+
+article div ul {
+  list-style-position: inside;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+}
+
