@@ -40,17 +40,17 @@ Certainly! Here's a step-by-step guide on how to install the Windows Subsystem f
 
 2. **Install WSL**:
    - In the Command Prompt or PowerShell window, type the following command and press **Enter**:
-     ```
-     wsl --install
-     ```
+```bash
+   wsl --install
+```
 
 ## Practical Example:
 
 Suppose you want to develop a Python application on Wubuntu. Follow the steps above to install it, then open a terminal. Execute the following commands:
 
 ```bash
-sudo apt update
-sudo apt install python3
+   sudo apt update
+   sudo apt install nodejs
 ```
 
 Now you have a development environment ready to create and run your Python projects on Wubuntu!
@@ -59,8 +59,7 @@ In summary, Wubuntu offers a unique hybrid experience, combining the power of Ub
 
 That's it! You now have WSL installed on your Windows machine. You can use a Bash terminal with your preferred Linux distribution (such as Ubuntu, Debian, SUSE, Kali, Fedora, Pengwin, Alpine, and more) directly on Windows¹. Enjoy the power of both worlds! 🚀.
 
-Source:
-
-(1) Install WSL | Microsoft Learn. https://learn.microsoft.com/en-us/windows/wsl/install.
-(2) How to install Windows Subsystem for Linux (WSL) on Windows 11. https://pureinfotech.com/install-wsl-windows-11/.
-(3) How to install Linux WSL2 on Windows 10 and Windows 11. https://www.windowscentral.com/how-install-wsl2-windows-10.
+*Sources*:
+1. [Install WSL | Microsoft Learn.](https://learn.microsoft.com/en-us/windows/wsl/install)
+2. [How to install Windows Subsystem for Linux WSL. on Windows 11.](https://pureinfotech.com/install-wsl-windows-11/)
+3. [How to install Linux WSL2 on Windows 10 and Windows 11.](https://www.windowscentral.com/how-install-wsl2-windows-10)
