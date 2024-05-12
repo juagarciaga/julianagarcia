@@ -4,6 +4,7 @@ import AboutMe from "./components/about-me";
 import Certifications from "./components/certifications";
 import Blog from "./components/blog-section";
 import { greyBg, bgWater } from "./constants";
+import CustomFooter from "./components/footer";
 
 export default function Home() {
   const bgImg = (bg: string) => (
@@ -16,7 +17,7 @@ export default function Home() {
   const leftColumClassName = "col-span-12 lg:col-span-3 bg-slate-300 flex flex-col items-center gap-1 text-black text-center py-3 px-10"
 
   return (
-    <main className="grid grid-cols-12 w-100 min-h-screen text-black ">
+    <main className="grid grid-cols-12 w-100 min-h-screen text-black relative">
       <div
         className={leftColumClassName}
         style={{ background: greyBg }}
@@ -59,6 +60,8 @@ export default function Home() {
       >
         <Blog />
       </div>
+
+      <CustomFooter/>
     </main>
   );
 }
